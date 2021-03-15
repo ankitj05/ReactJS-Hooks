@@ -16,8 +16,12 @@ Here you will find all the examples of React Hooks, along with the comparison of
     2. state depending on previous state.
     3. state with objects or arrays. 
 
-more are coming... Keep watching. 
+### useEffect
+    1. Basic implementation
+    2. Conditional side effects
+    3. Cleanup the side effects when the component is unmounted.
 
+more are coming... Keep watching. 
 
 For more content you can checkout my Hashnode Blog @ https://ankitjain.hashnode.dev/
 Connect with me on twitter @itsankitjain and Linkedin @ankithere
