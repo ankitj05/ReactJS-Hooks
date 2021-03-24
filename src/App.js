@@ -13,6 +13,7 @@ import HookCounterEffectTwo from './components/effect-lifecycle-method/condition
 import ClassCounterEffectThree from './components/effect-lifecycle-method/effectWithCleanup/ClassCounterEffectThree';
 import HookCounterEffectThree from './components/effect-lifecycle-method/effectWithCleanup/HookCounterEffectThree';
 import CleanupComponent from './components/effect-lifecycle-method/effectWithCleanup/CleanupComponent';
+import ContextApp from './components/context/contextApi/ContextApp';
 
 function App() {
   return (
@@ -34,7 +35,11 @@ function App() {
       {/* <HookCounterEffectTwo /> */}
       {/* <ClassCounterEffectThree /> */}
       {/* <HookCounterEffectThree /> */}
-      <CleanupComponent />
+      {/* <CleanupComponent /> */}
+
+      {/* ---------------useContext Components-------------- */}
+      <ContextApp />
+
     </div>
   );
 }
