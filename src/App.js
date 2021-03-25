@@ -14,6 +14,7 @@ import ClassCounterEffectThree from './components/effect-lifecycle-method/effect
 import HookCounterEffectThree from './components/effect-lifecycle-method/effectWithCleanup/HookCounterEffectThree';
 import CleanupComponent from './components/effect-lifecycle-method/effectWithCleanup/CleanupComponent';
 import ContextApp from './components/context/contextApi/ContextApp';
+import UseContext from './components/context/useContext/UseContext';
 
 function App() {
   return (
@@ -38,7 +39,8 @@ function App() {
       {/* <CleanupComponent /> */}
 
       {/* ---------------useContext Components-------------- */}
-      <ContextApp />
+      {/* <ContextApp /> */}
+      <UseContext />
 
     </div>
   );

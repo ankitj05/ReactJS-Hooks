@@ -21,6 +21,11 @@ Here you will find all the examples of React Hooks, along with the comparison of
     2. Conditional side effects
     3. Cleanup the side effects when the component is unmounted.
 
+### useContext
+    1. Implementation of Context API with single contexts.
+    2. Implementation of Context API with multiple contexts.
+    3. Implementation of useContext Hook which solves the drawbacks of ContextAPI. 
+
 more are coming... Keep watching. 
 
 For more content you can checkout my Hashnode Blog @ https://ankitjain.hashnode.dev/
