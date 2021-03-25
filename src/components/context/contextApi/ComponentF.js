@@ -1,17 +1,36 @@
 import React from 'react'
-import { UserContext } from './ContextApp'
+import { UserContext, FileContext } from './ContextApp'
 
 function ComponentF() {
     return (
-        <div>
-            <UserContext.Consumer>
+        <>
+
+            {/* ---------------Single context----------------- */}
+            {/* <UserContext.Consumer>
                 {
                     (value) => {
                         return <div>Username - {value}</div>
                     }
                 }
+            </UserContext.Consumer> */}
+
+            {/* ---------------Multiple Context--------------- */}
+            <UserContext.Consumer>
+                {
+                    userName => {
+                        return (
+                            <FileContext.Consumer>
+                                {
+                                    fileName => {
+                                        return <div>Username - {userName} Filename - {fileName}</div>
+                                    }
+                                }
+                            </FileContext.Consumer>
+                        )
+                    }
+                }
             </UserContext.Consumer>
-        </div>
+        </>
     )
 }
 

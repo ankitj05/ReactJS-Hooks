@@ -4,16 +4,10 @@ import ComponentC from './ComponentC'
 export const UserContext = React.createContext();
 export const FileContext = React.createContext();
 
-class ContextApp extends Component {
+class UseContext extends Component {
     render() {
         return (
             <>
-                {/* ---------------Single context----------------- */}
-                {/* <UserContext.Provider value={'Ankit'}>
-                    <ComponentC />
-                </UserContext.Provider> */}
-
-                {/* ---------------Multiple Context--------------- */}
                 <UserContext.Provider value={'Ankit'}>
                     <FileContext.Provider value={'photo.jpg'}>
                         <ComponentC />
@@ -24,4 +18,4 @@ class ContextApp extends Component {
     }
 }
 
-export default ContextApp
+export default UseContext
